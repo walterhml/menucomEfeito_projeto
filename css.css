@@ -1,0 +1,23 @@
+body{
+   background-color: blue;
+   margin: 0;
+   padding: 0;
+   color: white;
+}
+
+
+.cursor{
+position: fixed;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background: #fff;
+transition: translate(-50%, -50%);
+pointer-events: none;
+mix-blend-mode: difference;
+}
+
+li:hover{
+   transform: scale(3);
+   
+}
